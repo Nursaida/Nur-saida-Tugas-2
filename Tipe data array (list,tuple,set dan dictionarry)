@@ -1,0 +1,55 @@
+#TIPE DATA ARRAY
+
+
+#list
+#tuple
+#set
+#dict
+
+#LIST
+#1. PERULNGAN
+list=["Nunu","Biru",18,150.5,True]
+for i in list:
+  print(i)
+
+#while loop
+i=0
+while i < len(list):
+  print(list[i])
+  i+=1
+  
+
+#2. MENGUPDATE
+list=["Nunu","Biru",18,150.5,True]
+list[1]="Hitam"
+print(list)
+
+
+#3. MENGHAPUS
+list=["Nunu","Biru",18,150.5,True]
+
+list.remove("Nunu")
+print(list)
+
+del list[0]
+print(list)
+
+list.pop(1)
+print(list)
+
+
+#4. MENAMBAHKAN
+#append
+#insert
+#extend
+
+list=["Nunu","Biru",18,150.5,True]
+
+list.append("Hujan")
+print(list)
+
+list.insert(3,False)
+print(list)
+
+list.extend(["Bulan"])
+print(list)
